@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Stock Market Tracker</title>
+    <!-- Link to Chart.js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.5.0/Chart.min.js"></script>
+    <!-- links to jquery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <!-- <script src="jquery-3.3.1.min.js"></script> -->
+    <!-- link to css -->
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <!-- This is necessary to keep the graph's size in check -->
+    <div class="wrapper">
+        <h1>Stock Chart Demo</h1>
+        <h2>Compare and contrast datasets.</h2>
+
+        <!-- Canvas holding the graph -->
+        <canvas id="myChart" width="1600" height="900"></canvas>
+
+        <button id="green">
+            Green
+        </button>
+        <button id="purple">
+            Purple
+        </button>
+        <br>
+        <button id="empty">
+            Remove Dataset
+        </button>
+    </div>
+
+    <!-- link to javascript -->
+    <script src="javascript.js"></script>
+</body>
+
+</html>
